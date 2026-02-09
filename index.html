@@ -6,8 +6,24 @@
     <title>ToDo List</title>
 </head>
 <body>
-    
+
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <main>
+        <p label for="tarefa">Tarefa:
+            <input type="text" name="tarefa" id="task">
+        </p>
+        <button id="btn-adicionar" onclick="adicionar_Tarefa()">Adicionar Tarefa</button>
+        <button id="btn-remover" onclick="remover_Tarefa()">Remover Tarefa</button>
+
+        <p id="lista"></p>
+
+    </main>
+
+
+    <!-- JS EXTERNO -->
     <script src="./src/js/script.js"></script>
-    
+
 </body>
 </html>
